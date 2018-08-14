@@ -553,7 +553,7 @@ plt.show()
 ```
 
 
-![png](output_24_0.png)
+![output_24_0](https://user-images.githubusercontent.com/36623487/44091005-e5582ba0-9f80-11e8-8eef-02c7754ed881.png)
 
 
 The above visual is not very clear, the numbers and text overlap in some instances. Let's make a few modifications to improve the visuals:
@@ -592,7 +592,7 @@ plt.show()
 ```
 
 
-![png](output_26_0.png)
+![output_26_0](https://user-images.githubusercontent.com/36623487/44091006-e592503c-9f80-11e8-8287-609a4cf552ea.png)
 
 
 **Question:** Using a pie chart, explore the proportion (percentage) of new immigrants grouped by continents in the year 2013.
@@ -626,7 +626,7 @@ plt.show()
 ```
 
 
-![png](output_28_0.png)
+![output_28_0](https://user-images.githubusercontent.com/36623487/44091007-e5ca1bde-9f80-11e8-870c-b5525759dbd9.png)
 
 
 Double-click __here__ for the solution.
@@ -751,7 +751,7 @@ plt.show()
 ```
 
 
-![png](output_36_0.png)
+![output_36_0](https://user-images.githubusercontent.com/36623487/44091008-e60c53fa-9f80-11e8-82f6-d55a6f93d076.png)
 
 
 We can immediately make a few key observations from the plot above:
@@ -1005,7 +1005,7 @@ plt.show()
 ```
 
 
-![png](output_47_0.png)
+![output_47_0](https://user-images.githubusercontent.com/36623487/44091009-e63e6e44-9f80-11e8-8bb2-3b92f964a654.png)
 
 
 Double-click __here__ for the solution.
@@ -1039,7 +1039,7 @@ plt.show()
 ```
 
 
-![png](output_51_0.png)
+![output_51_0](https://user-images.githubusercontent.com/36623487/44091010-e670b21e-9f80-11e8-98f9-ca609cb761aa.png)
 
 
 **Subplots**
@@ -1084,7 +1084,7 @@ plt.show()
 ```
 
 
-![png](output_54_0.png)
+![output_54_0](https://user-images.githubusercontent.com/36623487/44091011-e6a3091c-9f80-11e8-875f-116681446180.png)
 
 
 ** * Tip regarding subplot convention **
@@ -1780,7 +1780,7 @@ plt.show()
 ```
 
 
-![png](output_67_0.png)
+![output_67_0](https://user-images.githubusercontent.com/36623487/44091013-e6d5f674-9f80-11e8-8a6b-0d83939dc2ba.png)
 
 
 Double-click __here__ for the solution.
@@ -1970,7 +1970,7 @@ plt.show()
 ```
 
 
-![png](output_76_0.png)
+![output_76_0](https://user-images.githubusercontent.com/36623487/44091014-e714a7b6-9f80-11e8-8734-3a3c3e88ac78.png)
 
 
 Notice how the scatter plot does not connect the datapoints together. We can clearly observe an upward trend in the data: as the years go by, the total number of immigrants increases. We can mathematically analyze this upward trend using a regression line (line of best fit). 
@@ -2021,7 +2021,7 @@ plt.show()
 ```
 
 
-![png](output_81_0.png)
+![output_81_0](https://user-images.githubusercontent.com/36623487/44091015-e74dce42-9f80-11e8-8c29-c0cc7244a615.png)
 
 
 
@@ -2175,7 +2175,7 @@ plt.ylabel('Number of Immigrants')
 
 
 
-![png](output_88_1.png)
+![output_88_1](https://user-images.githubusercontent.com/36623487/44091016-e7884dce-9f80-11e8-8ccc-d5a861b5d323.png)
 
 
 Double-click __here__ for the solution.
@@ -2457,7 +2457,7 @@ ax0.legend(['Brazil', 'Argentina'], loc='upper left', fontsize='x-large')
 
 
 
-![png](output_96_1.png)
+![output_96_1](https://user-images.githubusercontent.com/36623487/44091017-e7c25c76-9f80-11e8-884b-ba325f166978.png)
 
 
 The size of the bubble corresponds to the magnitude of immigrating population for that year, compared to the 1980 - 2013 data. The larger the bubble, the more immigrants in that year.
@@ -2531,7 +2531,7 @@ ax0.legend(['India', 'China'], loc='upper left', fontsize='x-large')
 
 
 
-![png](output_103_1.png)
+![output_103_1](https://user-images.githubusercontent.com/36623487/44091018-e7f9f9d8-9f80-11e8-80b3-64e944049319.png)
 
 
 Double-click __here__ for the solution.
