@@ -615,7 +615,7 @@ plt.colorbar()
 
 
 
-![png](output_36_2.png)
+![output_36_2](https://user-images.githubusercontent.com/36623487/44092778-5d3fca24-9f86-11e8-90d2-778b28836ed3.png)
 
 
 **Step 6.** Prettify the chart.
@@ -656,7 +656,7 @@ plt.yticks([])
 
 
 
-![png](output_38_2.png)
+![output_38_2](https://user-images.githubusercontent.com/36623487/44092779-5d74c904-9f86-11e8-99b6-7a58c827c4c0.png)
 
 
 **Step 7.** Create a legend and add it to chart.
@@ -714,8 +714,7 @@ plt.legend(handles=legend_handles,
     <Figure size 432x288 with 0 Axes>
 
 
-
-![png](output_40_2.png)
+![output_40_2](https://user-images.githubusercontent.com/36623487/44092780-5db39c4c-9f86-11e8-9eb3-29ca216402c7.png)
 
 
 And there you go! What a good looking *delicious* `waffle` chart, don't you think?
@@ -845,7 +844,7 @@ create_waffle_chart(categories, values, height, width, colormap)
 
 
 
-![png](output_47_2.png)
+![output_47_2](https://user-images.githubusercontent.com/36623487/44092781-5de50160-9f86-11e8-9670-1830f929c70e.png)
 
 
 There seems to be a new Python package for generating `waffle charts` called [PyWaffle](https://github.com/ligyxy/PyWaffle), but the repository has barely any documentation on the package. Accordingly, I couldn't use the package to prepare enough content to incorporate into this lab. But feel free to check it out and play with it. In the event that the package becomes complete with full documentation, then I will update this lab accordingly.
@@ -935,7 +934,7 @@ plt.show()
 ```
 
 
-![png](output_60_0.png)
+![output_60_0](https://user-images.githubusercontent.com/36623487/44092783-5e173194-9f86-11e8-908b-19c5f4b6a759.png)
 
 
 Interesting! So in the first 2000 words in the novel, the most common words are **Alice**, **said**, **little**, **Queen**, and so on. Let's resize the cloud so that we can see the less frequent words a little better.
@@ -953,7 +952,7 @@ plt.show()
 ```
 
 
-![png](output_62_0.png)
+![output_62_0](https://user-images.githubusercontent.com/36623487/44092784-5e4c68dc-9f86-11e8-9285-9328c2582484.png)
 
 
 Much better! However, **said** isn't really an informative word. So let's add it to our stopwords and re-generate the cloud.
@@ -976,7 +975,7 @@ plt.show()
 ```
 
 
-![png](output_64_0.png)
+![output_64_0](https://user-images.githubusercontent.com/36623487/44092785-5e7e7bba-9f86-11e8-8825-18116a1f0f3c.png)
 
 
 Excellent! This looks really interesting! Another cool thing you can implement with the `word_cloud` package is superimposing the words onto a mask of any shape. Let's use a mask of Alice and her rabbit. We already created the mask for you, so let's go ahead and download it and call it *alice_mask.png*.
@@ -1009,7 +1008,7 @@ plt.show()
 ```
 
 
-![png](output_68_0.png)
+![output_68_0](https://user-images.githubusercontent.com/36623487/44092786-5eae96c4-9f86-11e8-8ef1-6dbac5b5778f.png)
 
 
 Shaping the `word` cloud according to the mask is straightforward using `word_cloud` package. For simplicity, we will continue using the first 2000 words in the novel.
@@ -1033,7 +1032,7 @@ plt.show()
 ```
 
 
-![png](output_70_0.png)
+![output_70_0](https://user-images.githubusercontent.com/36623487/44092787-5ee54d4a-9f86-11e8-9c13-586ff4757cd8.png)
 
 
 Really impressive!
@@ -1307,7 +1306,7 @@ plt.show()
 ```
 
 
-![png](output_81_0.png)
+![output_81_0](https://user-images.githubusercontent.com/36623487/44092788-5f16f61a-9f86-11e8-9346-aa366b2585fa.png)
 
 
 According to the above word cloud, it looks like the majority of the people who immigrated came from one of 15 countries that are displayed by the word cloud. One cool visual that you could build, is perhaps using the map of Canada and a mask and superimposing the word cloud on top of the map of Canada. That would be an interesting visual to build!
@@ -1433,7 +1432,7 @@ ax = sns.regplot(x='year', y='total', data=df_tot)
 ```
 
 
-![png](output_90_0.png)
+![output_90_0](https://user-images.githubusercontent.com/36623487/44092789-5f4c5648-9f86-11e8-8fe6-fde9d07609a9.png)
 
 
 This is not magic; it is *seaborn*! You can also customize the color of the scatter plot and regression line. Let's change the color to green.
@@ -1445,7 +1444,7 @@ ax = sns.regplot(x='year', y='total', data=df_tot, color='green')
 ```
 
 
-![png](output_92_0.png)
+![output_92_0](https://user-images.githubusercontent.com/36623487/44092790-5f827804-9f86-11e8-9a2b-f7f5915bb8d4.png)
 
 
 You can always customize the marker shape, so instead of circular markers, let's use '+'.
@@ -1457,7 +1456,7 @@ ax = sns.regplot(x='year', y='total', data=df_tot, color='green', marker='+')
 ```
 
 
-![png](output_94_0.png)
+![output_94_0](https://user-images.githubusercontent.com/36623487/44092791-5fb9da88-9f86-11e8-92d1-bc5707c7be08.png)
 
 
 Let's blow up the plot a little bit so that it is more appealing to the sight.
@@ -1469,7 +1468,7 @@ ax = sns.regplot(x='year', y='total', data=df_tot, color='green', marker='+')
 ```
 
 
-![png](output_96_0.png)
+![output_96_0](https://user-images.githubusercontent.com/36623487/44092792-5ff426a2-9f86-11e8-822f-7d81f712dfe8.png)
 
 
 And let's increase the size of markers so they match the new size of the figure, and add a title and x- and y-labels.
@@ -1491,7 +1490,7 @@ ax.set_title('Total Immigration to Canada from 1980 - 2013') # add title
 
 
 
-![png](output_98_1.png)
+![output_98_1](https://user-images.githubusercontent.com/36623487/44092794-6068c9a8-9f86-11e8-96cd-f49d7b0d746c.png)
 
 
 And finally increase the font size of the tickmark labels, the title, and the x- and y-labels so they don't feel left out!
@@ -1515,7 +1514,7 @@ ax.set_title('Total Immigration to Canada from 1980 - 2013')
 
 
 
-![png](output_100_1.png)
+![output_100_1](https://user-images.githubusercontent.com/36623487/44092795-609b8cf8-9f86-11e8-83a6-f5b98e5ebecf.png)
 
 
 Amazing! A complete scatter plot with a regression fit with 5 lines of code only. Isn't this really amazing?
@@ -1542,7 +1541,7 @@ ax.set_title('Total Immigration to Canada from 1980 - 2013')
 
 
 
-![png](output_103_1.png)
+![output_103_1](https://user-images.githubusercontent.com/36623487/44092797-60cda59e-9f86-11e8-8b4e-a145f755dfff.png)
 
 
 Or to a white background with gridlines.
@@ -1567,7 +1566,7 @@ ax.set_title('Total Immigration to Canada from 1980 - 2013')
 
 
 
-![png](output_105_1.png)
+![output_105_1](https://user-images.githubusercontent.com/36623487/44092798-61046caa-9f86-11e8-8102-bdbac77213f2.png)
 
 
 **Question**: Use seaborn to create a scatter plot with a regression line to visualize the total immigration from Denmark, Sweden, and Norway to Canada from 1980 to 2013.
@@ -1604,8 +1603,7 @@ ax.set_title('Total Immigrationn from Denmark, Sweden, and Norway to Canada from
 
 
 
-
-![png](output_107_1.png)
+![output_107_1](https://user-images.githubusercontent.com/36623487/44092799-61390686-9f86-11e8-8ca6-1e3765ec8676.png)
 
 
 Double-click __here__ for the solution.
