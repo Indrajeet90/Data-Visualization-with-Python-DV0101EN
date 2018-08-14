@@ -4012,7 +4012,7 @@ haiti.plot()
 
 
 
-![png](output_80_1.png)
+![output_80_1](https://user-images.githubusercontent.com/36623487/44076993-0d199180-9f57-11e8-9031-af60a48de582.png)
 
 
 *pandas* automatically populated the x-axis with the index values (years), and the y-axis with the column values (population). However, notice how the years were not displayed because they are of type *string*. Therefore, let's change the type of the index values to *integer* for plotting.
@@ -4032,7 +4032,7 @@ plt.show() # need this line to show the updates made to the figure
 ```
 
 
-![png](output_82_0.png)
+![output_82_0](https://user-images.githubusercontent.com/36623487/44076994-0d687d68-9f57-11e8-808f-ee77dfa41399.png)
 
 
 We can clearly notice how number of immigrants from Haiti spiked up from 2010 as Canada stepped up its efforts to accept refugees from Haiti. Let's annotate this spike in the plot by using the `plt.text()` method.
@@ -4053,7 +4053,7 @@ plt.show()
 ```
 
 
-![png](output_84_0.png)
+![output_84_0](https://user-images.githubusercontent.com/36623487/44076995-0da65ca0-9f57-11e8-997f-3c8339c318c6.png)
 
 
 With just a few lines of code, you were able to quickly identify and visualize the spike in immigration!
@@ -4209,7 +4209,7 @@ df2.plot(kind='line')
 
 
 
-![png](output_91_1.png)
+![output_91_1](https://user-images.githubusercontent.com/36623487/44076997-0deff266-9f57-11e8-8444-ed28398ba1c8.png)
 
 
 Double-click __here__ for the solution.
@@ -4298,7 +4298,7 @@ plt.show()
 ```
 
 
-![png](output_96_0.png)
+![output_96_0](https://user-images.githubusercontent.com/36623487/44076998-0e8c0b2e-9f57-11e8-8792-a4d8183723de.png)
 
 
 Double-click __here__ for the solution.
@@ -4341,7 +4341,7 @@ Line plot is a handy tool to display several dependent variables against one ind
 
 ```python
 ### type your answer here
-df_can = df_can.sort_values(by='Total',ascending=False, axis=0,inplace=True)
+df_can.sort_values(by='Total',ascending=False, axis=0,inplace=True)
 df_top5 = df_can.head(5)
 df_top5 = df_top5[years].transpose() 
 print(df_top5)
