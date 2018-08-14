@@ -1257,7 +1257,7 @@ plt.show()
 ```
 
 
-![png](output_41_0.png)
+![output_41_0](https://user-images.githubusercontent.com/36623487/44082115-3ac96822-9f65-11e8-95b8-027e89ee0055.png)
 
 
 The unstacked plot has a default transparency (alpha value) at 0.5. We can modify this value by passing in the `alpha` parameter.
@@ -1318,7 +1318,7 @@ ax.set_xlabel('Years')
 
 
 
-![png](output_46_1.png)
+![output_46_1](https://user-images.githubusercontent.com/36623487/44082117-3b52ba6e-9f65-11e8-835b-1cbacdad6e05.png)
 
 
 **Question**: Use the scripting layer to create a stacked area plot of the 5 countries that contributed the least to immigration to Canada **from** 1980 to 2013. Use a transparency value of 0.45.
@@ -1341,7 +1341,7 @@ ax1.set_xlabel('Years')
 
 
 
-![png](output_48_1.png)
+![output_48_1](https://user-images.githubusercontent.com/36623487/44082119-3b905efa-9f65-11e8-8632-cab1498eb617.png)
 
 
 Double-click __here__ for the solution.
@@ -1391,7 +1391,7 @@ ax2.set_xlabel('Years')
 
 
 
-![png](output_51_1.png)
+![output_51_1](https://user-images.githubusercontent.com/36623487/44082121-3bd15b3a-9f65-11e8-916b-675f8346dc44.png)
 
 
 Double-click __here__ for the solution.
@@ -1482,7 +1482,7 @@ plt.show()
 ```
 
 
-![png](output_60_0.png)
+![output_60_0](https://user-images.githubusercontent.com/36623487/44082122-3d42265c-9f65-11e8-9c79-b5424acc3eb6.png)
 
 
 In the above plot, the x-axis represents the population range of immigrants in intervals of 3412.9. The y-axis represents the number of countries that contributed to the aforementioned population. 
@@ -1503,9 +1503,7 @@ plt.xlabel('Number of Immigrants') # add x-label
 plt.show()
 ```
 
-
-![png](output_62_0.png)
-
+![output_62_0](https://user-images.githubusercontent.com/36623487/44082123-3d7cacf0-9f65-11e8-914e-f61e1d296cb5.png)
 
 *Side Note:* We could use `df_can['2013'].plot.hist()`, instead. In fact, throughout this lesson, using `some_data.plot(kind='type_plot', ...)` is equivalent to `some_data.plot.type_plot(...)`. That is, passing the type of the plot as argument or method behaves the same. 
 
@@ -1683,7 +1681,7 @@ df_can.loc[['Denmark', 'Norway', 'Sweden'], years].plot.hist()
 
 
 
-![png](output_66_1.png)
+![output_66_1](https://user-images.githubusercontent.com/36623487/44082124-3db7cccc-9f65-11e8-87fd-8ece3f776681.png)
 
 
 That does not look right! 
@@ -1779,7 +1777,7 @@ plt.show()
 ```
 
 
-![png](output_69_0.png)
+![output_69_0](https://user-images.githubusercontent.com/36623487/44082126-3e103524-9f65-11e8-8946-ebdf993134e1.png)
 
 
 Let's make a few modifications to improve the impact and aesthetics of the previous plot:
@@ -1810,7 +1808,7 @@ plt.show()
 ```
 
 
-![png](output_71_0.png)
+![output_71_0](https://user-images.githubusercontent.com/36623487/44082127-3e4f8602-9f65-11e8-8f33-7d988fa9905a.png)
 
 
 Tip:
@@ -1847,7 +1845,7 @@ plt.show()
 ```
 
 
-![png](output_74_0.png)
+![output_74_0](https://user-images.githubusercontent.com/36623487/44082128-3e95f916-9f65-11e8-9c64-0bf2e4ecc253.png)
 
 
 **Question**: Use the scripting layer to display the immigration distribution for Greece, Albania, and Bulgaria for years 1980 - 2013? Use an overlapping plot with 15 bins and a transparency value of 0.35.
@@ -1874,7 +1872,7 @@ plt.show()
 ```
 
 
-![png](output_76_0.png)
+![output_76_0](https://user-images.githubusercontent.com/36623487/44082130-3ed6f93e-9f65-11e8-93eb-445d3a390c7c.png)
 
 
 Double-click __here__ for the solution.
@@ -1965,7 +1963,7 @@ plt.show()
 ```
 
 
-![png](output_81_0.png)
+![output_81_0](https://user-images.githubusercontent.com/36623487/44082131-3f13411e-9f65-11e8-85fa-7a8c7aa57c71.png)
 
 
 The bar plot above shows the total number of immigrants broken down by each year. We can clearly see the impact of the financial crisis; the number of immigrants to Canada started increasing rapidly after 2008. 
@@ -2004,7 +2002,7 @@ plt.show()
 ```
 
 
-![png](output_83_0.png)
+![output_83_0](https://user-images.githubusercontent.com/36623487/44082132-3f586b04-9f65-11e8-949d-ded7fee35328.png)
 
 
 Let's also annotate a text to go over the arrow.  We will pass in the following additional parameters:
@@ -2040,7 +2038,7 @@ plt.show()
 ```
 
 
-![png](output_85_0.png)
+![output_85_0](https://user-images.githubusercontent.com/36623487/44082133-3f99c8e2-9f65-11e8-8c45-c8f9822d5a8e.png)
 
 
 **Horizontal Bar Plot**
@@ -2119,7 +2117,8 @@ plt.show()
 ```
 
 
-![png](output_91_0.png)
+![output_91_0](https://user-images.githubusercontent.com/36623487/44082135-40029c6e-9f65-11e8-9ce4-60beb09be7d8.png)
+
 
 
 Double-click __here__ for the solution.
